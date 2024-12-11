@@ -6,7 +6,7 @@ import { deleteCard, fetchCards, takeLike } from "./app/cardSlice"
 
 const CardList = () => {
 
-    const data = useAppSelector((state) => (state.cards.cardArray))
+    const data = useAppSelector((state) => state.cards.cardArray)
     const dispatch = useAppDispatch()
     const [all, setAll] = useState('false')
 
