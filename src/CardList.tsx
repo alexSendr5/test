@@ -11,10 +11,10 @@ const CardList = () => {
     const [all, setAll] = useState('false')
 
     useEffect(()=>{
-        window.location.reload();
         dispatch(fetchCards())
     },[dispatch])
 
+    window.location.reload();
 
 const handleDelete = (id: string) => {
     dispatch(deleteCard(id))
