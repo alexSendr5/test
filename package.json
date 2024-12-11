@@ -2,6 +2,7 @@
   "name": "card-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://alexSendr5.github.io/test/",
   "type": "module",
   "scripts": {
     "dev": "vite",

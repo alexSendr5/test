@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { createHashRouter, RouterProvider } from "react-router-dom"
 import Root from "./root"
 import './index.css'
 import CreateCard from "./app/CreateCard"
@@ -9,7 +9,7 @@ import ToCards from "./ToCards"
 function App() {
 
 
-  const router = createBrowserRouter([{
+  const router = createHashRouter([{
     path: '/',
     element: <Root />,
     children:[
