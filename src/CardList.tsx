@@ -11,6 +11,7 @@ const CardList = () => {
     const [all, setAll] = useState('false')
 
     useEffect(()=>{
+        window.location.reload();
         dispatch(fetchCards())
     },[dispatch])
 
