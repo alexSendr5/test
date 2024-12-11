@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.create--input input{
+    border: 1px solid black;
+}
+
+.create--descryption{
+    border: 1px solid black;
+    min-height: 200px;
+    max-height: 400px;
+}
+
+.product{
+    width: 220px;
+    height: 300px;
+}
