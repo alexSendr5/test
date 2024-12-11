@@ -10,7 +10,7 @@ function App() {
 
 
   const router = createBrowserRouter([{
-    path: 'alexsendr5.github.io/test/',
+    path: '/',
     element: <Root />,
     children:[
       {
