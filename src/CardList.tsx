@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { useAppDispatch, useAppSelector } from "./app/hooks"
-import { useEffect, useState} from "react"
-import { deleteCard, fetchCards, takeLike } from "./app/cardSlice"
+import { useState} from "react"
+import { deleteCard, takeLike } from "./app/cardSlice"
 
 
 const CardList = () => {
@@ -10,9 +10,6 @@ const CardList = () => {
     const dispatch = useAppDispatch()
     const [all, setAll] = useState('false')
 
-    useEffect(()=>{
-        dispatch(fetchCards())
-    },[dispatch])
 
 
 const handleDelete = (id: string) => {
