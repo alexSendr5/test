@@ -33,8 +33,8 @@ const CreateCard = () => {
             setAmount('')
             setTruecount(false)
             setTrueamount(false)
-            redirect('/products')
-        window.location.reload()}
+            window.location.reload()
+            redirect('/products')}
             else{
                 setTruecount(true)
                 setTrueamount(true)
